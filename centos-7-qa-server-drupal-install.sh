@@ -14,7 +14,7 @@ yum -y install mod_ruid2
 yum -y install mariadb-server mysql
 
 #install **drush**
-yum -y install php-drush-drush
+yum -y install php-drush-drush php-pear-Console-Table
 
 #install other tools
 yum -y install vim-common vim-enhanced unzip zip rar unrar vim-minimal sysstat rdate atop glances screen  ImageMagick  iotop bash-completion  jwhois wget lynx telnet expect mc zip unzip lynx patch git cvs
