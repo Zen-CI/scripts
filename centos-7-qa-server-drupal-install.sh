@@ -5,7 +5,7 @@ rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
 #install php7
-yum -y install php70w-fpm php70w-opcache php70w-gd php70w-xml php70w-tidy php70w-soap php70w-snmp php70w-recode php70w-pspell php70w-process php70w-pecl-imagick php70w-pecl-xdebug php70w-pdo php70w-mysqlnd php70w-mcrypt php70w-mbstring php70w-ldap php70w-intl php70w-imap php70w-enchant php70w-bcmath
+yum -y install php70w php70w-opcache php70w-gd php70w-xml php70w-tidy php70w-soap php70w-snmp php70w-recode php70w-pspell php70w-process php70w-pecl-imagick php70w-pecl-xdebug php70w-pdo php70w-mysqlnd php70w-mcrypt php70w-mbstring php70w-ldap php70w-intl php70w-imap php70w-enchant php70w-bcmath
 
 #install mod_ruid2 to run php under user name
 yum -y install mod_ruid2
