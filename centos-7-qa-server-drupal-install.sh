@@ -11,7 +11,7 @@ yum -y install php70w-fpm php70w-opcache php70w-gd php70w-xml php70w-tidy php70w
 yum -y install mod_ruid2
 
 #install mysql (mariadb)
-yum -y install mysql-server mysql
+yum -y install mariadb-server mysql
 
 #install **drush**
 yum -y install php-drush-drush
